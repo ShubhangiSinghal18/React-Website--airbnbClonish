@@ -1,4 +1,35 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+}
+ 
+nav{
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  height: 5%;
+  padding:1%;
+} 
+.nav-img {
+  margin: 0;
+  height:4em;
+  width: auto;
+}
+
+
+ 
+.photo-grid{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+} 
+.grid-img{
+  height: 40%;
+  width: 60%;
+  margin: auto;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
